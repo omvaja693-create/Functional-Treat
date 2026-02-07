@@ -1,39 +1,51 @@
-# 📊✨ Data Analyzer & Transformer Program  
-### *Python | Functional Programming | CLI Application*
+<h1 align="center">📊 𝐃𝐚𝐭𝐚 𝐀𝐧𝐚𝐥𝐲𝐳𝐞𝐫 & 𝐓𝐫𝐚𝐧𝐬𝐟𝐨𝐫𝐦𝐞𝐫 𝐏𝐫𝐨𝐠𝐫𝐚𝐦</h1>
 
----
-
-🚀 **The Data Analyzer & Transformer Program** is a **menu-driven Python application** designed to **input, analyze, transform, and summarize numerical datasets** using powerful **functional programming concepts**.
-
-This project highlights **clean code structure**, **modular design**, and **real-world data operations**, making it ideal for **academic submission, GitHub portfolios, and interviews**.
-
----
-
-## 🖥️🎯 Program Interface Preview
+<h3 align="center">
+Python • Functional Programming • CLI Application
+</h3>
 
 <p align="center">
-  <img src="User%20Interface.PNG" alt="Data Analyzer Program Demo" width="700">
+✨ A professional, menu-driven data analysis system built using Python ✨
 </p>
 
-📝 *The screenshot above shows the interactive command-line interface where users can select different analytical and transformation operations.*
+<hr>
 
----
+<h2>🖥️ Program Interface Preview</h2>
 
-## 🎯✨ Project Objectives
+<p align="center">
+  <img src="User%20Interface.PNG" width="750" alt="Program UI Screenshot">
+</p>
 
-✔️ Accept user-defined numerical datasets  
-✔️ Perform **statistical analysis** using built-in & custom functions  
-✔️ Demonstrate **recursion** through factorial calculation  
-✔️ Apply **data filtering logic** using threshold conditions  
-✔️ Implement **sorting techniques** (Ascending & Descending)  
-✔️ Return and display **multiple computed values**  
-✔️ Provide a **clean, user-friendly menu system**
+<p align="center">
+<strong>Interactive Command-Line Interface showcasing multiple data operations</strong>
+</p>
 
----
+<hr>
 
-## 🧭📋 Main Menu Options
+<h2>🎯 Project Overview</h2>
 
-```text
+<p style="font-size:16px;">
+The <strong>Data Analyzer & Transformer Program</strong> is a structured Python application designed to
+<strong>input, analyze, filter, sort, and summarize numerical datasets</strong> using
+<strong>functional programming techniques</strong>.
+</p>
+
+<p style="font-size:16px;">
+This project is ideal for:
+</p>
+
+<ul>
+  <li>📌 Academic submissions</li>
+  <li>📌 Python practice projects</li>
+  <li>📌 GitHub portfolio showcasing</li>
+  <li>📌 Interview preparation</li>
+</ul>
+
+<hr>
+
+<h2>📋 Main Menu Options</h2>
+
+<pre style="font-size:15px;">
 1️⃣  Input Data  
 2️⃣  Display Data Summary (Built-in Functions)  
 3️⃣  Calculate Factorial (Recursion)  
@@ -41,110 +53,88 @@ This project highlights **clean code structure**, **modular design**, and **real
 5️⃣  Sort Data  
 6️⃣  Display Dataset Statistics (Return Multiple Values)  
 7️⃣  Exit Program  
-🧠 Each option performs a specific operation on the dataset using reusable user-defined functions.
+</pre>
 
-🔍🛠 Feature Breakdown
-➕ Input Data
-Accepts size of a 1D array
+<hr>
 
-Stores user-entered integer values
+<h2>🛠️ Key Features</h2>
 
-Enables further analytical operations
+<h3>➕ Input Data</h3>
+<p>
+Allows users to enter a dataset dynamically which is stored for further processing.
+</p>
 
-📊 Data Summary (Built-in Functions)
-Displays:
+<h3>📊 Data Summary</h3>
+<p>
+Displays minimum, maximum, sum, average, and total count using Python built-in functions.
+</p>
 
-🔢 Total elements
+<h3>🔁 Factorial Calculation</h3>
+<p>
+Implements <strong>recursion</strong> to calculate factorial values, demonstrating base and recursive cases.
+</p>
 
-🔽 Minimum value
+<h3>🧮 Data Filtering</h3>
+<p>
+Filters dataset values based on a user-defined threshold.
+</p>
 
-🔼 Maximum value
+<h3>🔀 Data Sorting</h3>
+<p>
+Sorts data in ascending or descending order using reusable user-defined functions.
+</p>
 
-➕ Sum of values
+<h3>📈 Dataset Statistics</h3>
+<p>
+Returns and displays multiple statistical values from a single function call.
+</p>
 
-📈 Average value
+<hr>
 
-Implemented using modular user-defined functions.
+<h2>▶️ How to Run</h2>
 
-🔁 Factorial Calculation (Recursion)
-Calculates factorial of a number
-
-Uses recursive function logic
-
-Demonstrates base case & recursive calls clearly
-
-🧮 Filter Data by Threshold
-Filters values greater than or equal to a user-defined threshold
-
-Creates a new filtered dataset
-
-Useful for conditional data analysis
-
-🔀 Sort Data
-Provides two options:
-
-⬆️ Ascending Order
-
-⬇️ Descending Order
-
-Sorting is handled via dedicated UDFs for clarity and reusability.
-
-📈 Dataset Statistics
-Displays multiple statistical results together
-
-Reinforces returning multiple computed values
-
-Promotes clean, modular programming
-
-▶️⚙️ How to Run the Project
-🔹 Requirements
-🐍 Python 3.10+ (required for match-case)
-
-🔹 Steps
-1️⃣ Clone or download the repository
-2️⃣ Open terminal / command prompt
-3️⃣ Run the program:
-
+<pre style="font-size:15px;">
 python "Functional Treat.py"
-4️⃣ Follow the on-screen instructions
+</pre>
 
-🧠📚 Concepts Demonstrated
-✅ User Defined Functions (UDFs)
+<p>
+⚠️ Requires <strong>Python 3.10+</strong> for match-case support.
+</p>
 
-✅ Recursion
+<hr>
 
-✅ Functional programming approach
+<h2>🧠 Concepts Used</h2>
 
-✅ Lists & iteration
+<ul>
+  <li>✔️ Functional Programming</li>
+  <li>✔️ User Defined Functions</li>
+  <li>✔️ Recursion</li>
+  <li>✔️ List operations</li>
+  <li>✔️ Built-in functions</li>
+  <li>✔️ Match-Case control flow</li>
+</ul>
 
-✅ Conditional logic
+<hr>
 
-✅ Match-Case control flow
+<h2>🚀 Future Enhancements</h2>
 
-✅ Built-in functions (min, max, sum, len)
+<ul>
+  <li>🔹 Input validation</li>
+  <li>🔹 Lambda function implementation</li>
+  <li>🔹 File handling (CSV / JSON)</li>
+  <li>🔹 GUI using Tkinter</li>
+  <li>🔹 Data visualization</li>
+</ul>
 
-✅ Sorting algorithms
+<hr>
 
-✅ Menu-driven application design
+<h2>👨‍💻 Author</h2>
 
-🛠💻 Technologies Used
-🐍 Python 3
+<p style="font-size:16px;">
+<strong>Om Vaja</strong><br>
+Python Programmer • Data Enthusiast
+</p>
 
-💻 Command Line Interface (CLI)
-
-📦 Python Standard Library
-
-🚀📌 Future Enhancements
-🔹 Add input validation & exception handling
-🔹 Implement actual lambda() functions
-🔹 Store dataset in CSV / JSON files
-🔹 Add graphical UI using Tkinter
-🔹 Integrate data visualization (charts & graphs)
-
-👨‍💻✨ Author
-Om Vaja
-📌 Python Programmer
-📌 Data Analysis Enthusiast
-📌 Aspiring Data Analyst
-
-⭐ If you found this project helpful, don’t forget to star the repository! ⭐
+<p>
+⭐ If you like this project, don’t forget to star the repository ⭐
+</p>
